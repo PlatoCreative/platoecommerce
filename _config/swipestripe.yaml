@@ -1,0 +1,50 @@
+---
+name: PlatoEcommerce
+---
+
+Director:
+  rules:
+    'product/$ID!/$Action' : 'Product_Controller',
+    '/$URLSegment/product/$ID!/$Action' : 'Product_Controller',
+    '/$URLSegment/$URLSegment/product/$ID!/$Action' : 'Product_Controller',
+    '/$URLSegment/$URLSegment/$URLSegment/product/$ID!/$Action' : 'Product_Controller'
+
+Modifier:
+  Enabled:
+    -
+ShopConfig:
+  HideVariationsOnSpecial: false
+  RedirectOnAddToCart: true
+  RequireUserActivation: false
+
+ShopAdmin:
+  menu_icon: 'plato-ecommerce/images/basket.png'
+
+CatalogAdmin:
+  menu_icon: 'plato-ecommerce/images/catalog.png'
+
+OrderAdmin:
+  menu_icon: 'plato-ecommerce/images/orders.png'
+
+Security:
+  default_login_dest: 'account'
+
+Payment:
+  extensions:
+    - 'Payment_Extension'
+
+PaymentProcessor:
+  extensions:
+    - 'Payment_ProcessorExtension'
+
+LeftAndMain:
+  extensions:
+    - 'ShopAdmin_LeftAndMainExtension'
+
+Page_Controller:
+  extensions:
+    - 'Cart'
+
+Security:
+  extensions:
+    - 'Cart'
