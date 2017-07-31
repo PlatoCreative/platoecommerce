@@ -2,8 +2,8 @@
 /**
  * Search filter for option sets, used for searching {@link Order} statuses in the CMS.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage admin
  */
@@ -63,8 +63,8 @@ class ShopSearchFilter_OptionSet extends SearchFilter {
  * Search filter for {@link Product} status, whether a {@link Product} is published
  * or unpublished.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage admin
  */

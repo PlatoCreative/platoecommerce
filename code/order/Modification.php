@@ -6,8 +6,8 @@
  * and saves that - denormalising the data - so that Modifiers can be deleted without losing
  * any information from the Order.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage order
  */

@@ -3,8 +3,8 @@
  * Mixin to augment the {@link Payment} class.
  * Payment statuses: Incomplete,Success,Failure,Pending
  * 
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage order
  */

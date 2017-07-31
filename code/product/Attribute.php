@@ -7,8 +7,8 @@
  * and also have some Variations. If the Product does not have Variations when it needs to
  * then it cannot be purchased.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage product
  */

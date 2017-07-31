@@ -3,8 +3,8 @@
  * A notification email that is sent to an email address specified in {@link ShopConfig}, usually
  * a site administrator or owner.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage emails
  */

@@ -5,8 +5,8 @@
  * when the Attribute is added to a Product. Options can be changed for each Product.
  * Default Options will have a ProductID of 0.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage product
  */

@@ -2,8 +2,8 @@
 /**
  * Form to display the {@link Order} contents on the {@link CartPage}.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage form
  */

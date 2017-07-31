@@ -93,8 +93,8 @@ class ModificationField_Hidden extends HiddenField {
  * For displaying a set of modifiers on the {@link CheckoutPage} which will inject their details
  * into {@link Order} {@link Modifications}.
  * 
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage form
  */

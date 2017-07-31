@@ -2,8 +2,8 @@
 /**
  * For {@link Product} {@link Option} fields to be displayed on the {@link Product} page.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage form
  */

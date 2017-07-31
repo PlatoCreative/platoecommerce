@@ -2,8 +2,8 @@
 /**
  * Shop admin area for managing orders, customers and shop settings.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage admin
  */
@@ -217,8 +217,8 @@ class ShopAdmin extends ModelAdmin {
 /**
  * Shop admin area for managing email settings
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage admin
  */
@@ -394,8 +394,8 @@ class ShopAdmin_EmailAdmin extends ShopAdmin {
 /**
  * Shop admin area for managing base currency
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage admin
  */
@@ -569,8 +569,8 @@ class ShopAdmin_BaseCurrency extends ShopAdmin {
 /**
  * Extension for admin area to apply shop admin CSS etc.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage admin
  */

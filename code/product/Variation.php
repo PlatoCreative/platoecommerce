@@ -5,8 +5,8 @@
  * so that when they are added to an Order and then changed, the Order can still access the correct
  * information.
  *
- * @author Frank Mullenger <frankmullenger@gmail.com>
- * @copyright Copyright (c) 2011, Frank Mullenger
+ * @author Plato Creative
+ * @copyright Copyright (c) 2017, Plato Creative
  * @package PlatoEcommerce
  * @subpackage product
  */
@@ -469,12 +469,4 @@ class Variation extends DataObject implements PermissionProvider {
 		$shopConfig = ShopConfig::current_shop_config();
 		$this->Currency = $shopConfig->BaseCurrency;
 	}
-}
-
-class Variation_Options extends DataObject {
-
-	private static $has_one = array(
-		'Variation' => 'Variation',
-		'Option' => 'Option'
-	);
 }
