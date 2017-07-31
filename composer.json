@@ -4,15 +4,11 @@
 	"keywords": ["silverstripe", "ecommerce"],
 	"require":
 	{
-		"silverstripe/framework": "~3.1",
+		"silverstripe/framework": "~3.6",
 		"silverstripe/cms": "~3.1",
 		"silverstripe/payment": "1.0.*",
 		"icecaster/versioned-gridfield": "1.0.*",
 		"undefinedoffset/sortablegridfield": "0.6.*"
-	},
-	"require-dev":
-	{
-		"silverstripe/sqlite3": "*"
 	},
 	"repositories": [
 		{
@@ -21,4 +17,4 @@
 		}
 	],
 	"minimum-stability": "dev"
-	}
+}

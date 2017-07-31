@@ -9,7 +9,6 @@
 *.vi
 *~
 *.sass-cache
-
 # OS or Editor folders
 .DS_Store
 Thumbs.db
@@ -21,7 +20,6 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
-
 # Folders to ignore
 .hg
 .svn
