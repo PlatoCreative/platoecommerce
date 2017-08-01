@@ -17,8 +17,5 @@
 			"url": "git@github.com:silverstripe-labs/silverstripe-payment.git"
 		}
 	],
-    "extra": {
-        "installer-name": "plato-ecommerce"
-    },
 	"minimum-stability": "dev"
 }
