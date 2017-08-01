@@ -2,6 +2,7 @@
 	"name": "plato-creative/platoecommerce",
 	"description": "SilverStripe Ecommerce",
 	"keywords": ["silverstripe", "ecommerce"],
+    "type": "silverstripe-module",
 	"require":
 	{
 		"silverstripe/framework": "~3.1",
