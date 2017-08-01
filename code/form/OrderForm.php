@@ -30,7 +30,7 @@ class OrderForm extends Form {
 
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
-		Requirements::javascript('platoecommerce/javascript/OrderForm.js');
+		Requirements::javascript('plato-ecommerce/javascript/OrderForm.js');
 
 		$this->order = Cart::get_current_order();
 		$this->customer = Customer::currentUser() ? Customer::currentUser() : singleton('Customer');

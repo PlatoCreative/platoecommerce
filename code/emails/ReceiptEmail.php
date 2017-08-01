@@ -42,7 +42,7 @@ class ReceiptEmail extends ProcessedEmail {
 			$css = file_get_contents(Director::getAbsFile($this->ThemeDir().'/css/ShopEmail.css'));
 		}
 		else {
-			$css = file_get_contents(Director::getAbsFile('platoecommerce/css/ShopEmail.css'));
+			$css = file_get_contents(Director::getAbsFile('plato-ecommerce/css/ShopEmail.css'));
 		}
 
 		$this->populateTemplate(

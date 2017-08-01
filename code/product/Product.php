@@ -504,7 +504,7 @@ class Product_Controller extends Page_Controller {
 		parent::init();
 
 		// CSS & JS
-		Requirements::javascript('platoecommerce/javascript/Attribute_OptionField.js');
+		Requirements::javascript('plato-ecommerce/javascript/Attribute_OptionField.js');
 		$params = $this->getURLParams();
 
 		if($params['ID'] != '') {

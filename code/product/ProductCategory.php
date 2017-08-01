@@ -173,7 +173,7 @@ class ProductCategory_Controller extends Page_Controller {
 	 */
 	function init() {
 		parent::init();
-		Requirements::css('platoecommerce/css/Shop.css');
+		Requirements::css('plato-ecommerce/css/Shop.css');
 	}
 	/*
 	function product(){

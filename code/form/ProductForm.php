@@ -15,7 +15,7 @@ class ProductForm extends Form {
 		parent::__construct($controller, $name, FieldList::create(), FieldList::create(), null);
 		//Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		//Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
-		//Requirements::javascript('platoecommerce/javascript/ProductForm.js');
+		//Requirements::javascript('plato-ecommerce/javascript/ProductForm.js');
 
 		$this->product = $controller->data();
 		$this->quantity = $quantity;

@@ -28,9 +28,9 @@ class Cart extends DataExtension {
 	// TODO - Shift these to be better included
 	public function onAfterInit() {
 		// CSS & JS
-		Requirements::css('platoecommerce/css/Shop.css');
+		Requirements::css('plato-ecommerce/css/Shop.css');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
-		Requirements::javascript('platoecommerce/javascript/Shop.js');
+		Requirements::javascript('plato-ecommerce/javascript/Shop.js');
 	}
 
 	// Refresh content in the Cart Overview include

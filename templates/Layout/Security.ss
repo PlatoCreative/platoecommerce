@@ -1,4 +1,4 @@
-<% require css(platoecommerce/css/Shop.css) %>
+<% require css(plato-ecommerce/css/Shop.css) %>
 
 <div class="security sws row">
 	<div class="small-12 columns">

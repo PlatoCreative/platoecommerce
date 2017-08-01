@@ -224,7 +224,7 @@ class Attribute_OptionField extends DropdownField {
 		$shopConfig = ShopConfig::current_shop_config();
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
-		Requirements::javascript('platoecommerce/javascript/Attribute_OptionField.js');
+		Requirements::javascript('plato-ecommerce/javascript/Attribute_OptionField.js');
 
 		//$product = $attr->Product();
 

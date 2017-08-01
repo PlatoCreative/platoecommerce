@@ -23,7 +23,7 @@
 		<% if Actions %>
 		<div class="Actions">
 			<div class="loading">
-				<img src="platoecommerce/images/loading.gif" />
+				<img src="plato-ecommerce/images/loading.gif" />
 			</div>
 			<% loop Actions %>
 				$Field
