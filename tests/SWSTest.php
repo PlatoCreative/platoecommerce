@@ -9,7 +9,7 @@
  */
 class PlatoEcommerce_Test extends FunctionalTest {
 
-	protected static $fixture_file = 'plato-ecommerce/tests/plato-ecommerce.yml';
+	protected static $fixture_file = 'platoecommerce/tests/platoecommerce.yml';
 	protected static $disable_themes = true;
 	protected static $use_draft_site = false;
 

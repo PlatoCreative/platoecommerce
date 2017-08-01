@@ -119,7 +119,7 @@ class CheckoutPage_Controller extends Page_Controller {
 		Session::set('BackURL',$this->Link());
 
 		// Include some CSS and javascript for the checkout page
-		Requirements::css('plato-ecommerce/css/Shop.css');
+		Requirements::css('platoecommerce/css/Shop.css');
 
 		return array(
 			'Content' => $this->Content,
@@ -139,7 +139,7 @@ class CheckoutPage_Controller extends Page_Controller {
 		// Update stock levels
 		// Order::delete_abandoned();
 
-		Requirements::css('plato-ecommerce/css/Shop.css');
+		Requirements::css('platoecommerce/css/Shop.css');
 
 		return array(
 			'Content' => $this->Content,

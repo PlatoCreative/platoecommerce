@@ -15,7 +15,7 @@ class ProductForm extends Form {
 		parent::__construct($controller, $name, FieldList::create(), FieldList::create(), null);
 		//Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		//Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
-		//Requirements::javascript('plato-ecommerce/javascript/ProductForm.js');
+		//Requirements::javascript('platoecommerce/javascript/ProductForm.js');
 
 		$this->product = $controller->data();
 		$this->quantity = $quantity;
@@ -272,7 +272,7 @@ class ProductForm extends Form {
 	 *
 	 * TODO make this work with AJAX
 	 */
-	private function goToNextPage() {
+	public function goToNextPage() {
 		$redirectURL = $this->getRequest()->requestVar('Redirect');
 
 		//Check if on site URL, if so redirect there, else redirect back

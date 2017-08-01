@@ -18,13 +18,13 @@ ShopConfig:
   RequireUserActivation: false
 
 ShopAdmin:
-  menu_icon: 'plato-ecommerce/images/basket.png'
+  menu_icon: 'platoecommerce/images/basket.png'
 
 CatalogAdmin:
-  menu_icon: 'plato-ecommerce/images/catalog.png'
+  menu_icon: 'platoecommerce/images/catalog.png'
 
 OrderAdmin:
-  menu_icon: 'plato-ecommerce/images/orders.png'
+  menu_icon: 'platoecommerce/images/orders.png'
 
 Security:
   default_login_dest: 'account'

@@ -38,7 +38,7 @@ class ShopAdmin extends ModelAdmin {
 		parent::init();
 
 		Requirements::css(CMS_DIR . '/css/screen.css');
-		Requirements::css('plato-ecommerce/css/ShopAdmin.css');
+		Requirements::css('platoecommerce/css/ShopAdmin.css');
 		/*
 		Requirements::combine_files(
 			'cmsmain.js',
@@ -577,7 +577,7 @@ class ShopAdmin_BaseCurrency extends ShopAdmin {
 class ShopAdmin_LeftAndMainExtension extends Extension {
 
 	public function onAfterInit() {
-		Requirements::css('plato-ecommerce/css/ShopAdmin.css');
+		Requirements::css('platoecommerce/css/ShopAdmin.css');
 	}
 
 	public function alternateMenuDisplayCheck($className) {

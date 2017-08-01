@@ -119,7 +119,7 @@ class CartPage_Controller extends Page_Controller {
 		//Update stock levels
 		//Order::delete_abandoned();
 
-		Requirements::css('plato-ecommerce/css/Shop.css');
+		Requirements::css('platoecommerce/css/Shop.css');
 
 		return array(
 			 'Content' => $this->Content,

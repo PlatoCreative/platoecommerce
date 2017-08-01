@@ -32,7 +32,7 @@ class CartForm extends Form {
 
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
-		Requirements::javascript('plato-ecommerce/javascript/CartForm.js');
+		Requirements::javascript('platoecommerce/javascript/CartForm.js');
 
 		$this->order = Cart::get_current_order();
 
