@@ -102,7 +102,7 @@ class Product_Controller extends Page_Controller {
 	public function ProductAdd(SS_HTTPRequest $request) {
 		$form = Session::get('ProductForm');
 		if($request && $form){
-			$cart = Cart::get_current_order(true);
+			$cart = ShoppingCart::get_current_order(true);
 			$data = $request->postVars();
 			$form->setRequest($request);
 			$form->loadDataFrom($data);

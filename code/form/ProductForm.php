@@ -182,7 +182,7 @@ class ProductForm extends Form {
 	 * @param Form $form
 	 */
 	public function add(Array $data, Form $form) {
-		$cart = Cart::get_current_order(true);
+		$cart = ShoppingCart::get_current_order(true);
 
 		$added = $cart->addItem(
 			$this->getProduct(),

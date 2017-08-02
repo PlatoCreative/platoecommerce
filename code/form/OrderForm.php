@@ -32,7 +32,7 @@ class OrderForm extends Form {
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
 		Requirements::javascript('plato-ecommerce/javascript/OrderForm.js');
 
-		$this->order = Cart::get_current_order();
+		$this->order = ShoppingCart::get_current_order();
 		$this->customer = Customer::currentUser() ? Customer::currentUser() : singleton('Customer');
 
 		$this->fields = $this->createFields();
@@ -249,7 +249,7 @@ class OrderForm extends Form {
 		}
 
 		//Save the order
-		$order = Cart::get_current_order();
+		$order = ShoppingCart::get_current_order();
 		$items = $order->Items();
 
 		$form->saveInto($order);
@@ -310,7 +310,7 @@ class OrderForm extends Form {
 	public function update(SS_HTTPRequest $request) {
 		if ($request->isPOST()) {
 			$member = Customer::currentUser() ? Customer::currentUser() : singleton('Customer');
-			$order = Cart::get_current_order();
+			$order = ShoppingCart::get_current_order();
 
 			//Update the Order
 			$order->update($request->postVars());
@@ -359,7 +359,7 @@ class OrderForm_Validator extends RequiredFields {
 		$fields = $this->form->Fields();
 
 		//Check the order is valid
-		$currentOrder = Cart::get_current_order();
+		$currentOrder = ShoppingCart::get_current_order();
 		if (!$currentOrder) {
 			$this->form->sessionMessage(
 				_t('Form.ORDER_IS_NOT_VALID', 'Your cart seems to be empty, please add an item from the shop'),
@@ -469,7 +469,7 @@ class OrderForm_ItemField extends FormField {
 
 		$valid = true;
 		$item = $this->Item();
-		$currentOrder = Cart::get_current_order();
+		$currentOrder = ShoppingCart::get_current_order();
 		$items = $currentOrder->Items();
 
 		//Check that item exists and is in the current order

@@ -34,7 +34,7 @@ class CartForm extends Form {
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-entwine/dist/jquery.entwine-dist.js');
 		Requirements::javascript('plato-ecommerce/javascript/CartForm.js');
 
-		$this->order = Cart::get_current_order();
+		$this->order = ShoppingCart::get_current_order();
 
 		$this->fields = $this->createFields();
 		$this->actions = $this->createActions();
@@ -138,7 +138,7 @@ class CartForm extends Form {
 	 * @param Form $form Form that data was submitted from
 	 */
 	private function saveCart(Array $data, Form $form) {
-		$currentOrder = Cart::get_current_order();
+		$currentOrder = ShoppingCart::get_current_order();
 		$quantities = (isset($data['Quantity'])) ?$data['Quantity'] : null;
 
 		if ($quantities) foreach ($quantities as $itemID => $quantity) {
@@ -247,7 +247,7 @@ class CartForm_QuantityField extends TextField {
 
 		$valid = true;
 		$item = $this->Item();
-		$currentOrder = Cart::get_current_order();
+		$currentOrder = ShoppingCart::get_current_order();
 		$items = $currentOrder->Items();
 		$quantity = $this->Value();
 

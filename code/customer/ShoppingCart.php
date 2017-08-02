@@ -8,7 +8,7 @@
  * @package PlatoEcommerce
  * @subpackage customer
  */
-class CartExtension extends DataExtension {
+class ShoppingCart extends DataExtension {
 	private static $allowed_actions = array(
 		'RefreshCartOverview',
 		'TotalCartItems'

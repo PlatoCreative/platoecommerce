@@ -54,7 +54,7 @@ class CheckoutPage_Controller extends Page_Controller {
 	*/
 
 	function OrderForm() {
-		$order = Cart::get_current_order();
+		$order = ShoppingCart::get_current_order();
 		$member = Customer::currentUser() ? Customer::currentUser() : singleton('Customer');
 
 		$form = OrderForm::create(

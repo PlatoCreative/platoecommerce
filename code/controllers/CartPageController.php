@@ -54,7 +54,7 @@ class CartPage_Controller extends Page_Controller {
 				$item = Item::get()->byID(Convert::raw2sql($params['ID']));
 				if($item){
 					$result = $item->Delete();
-					$currentOrder = Cart::get_current_order();
+					$currentOrder = ShoppingCart::get_current_order();
 					$currentOrder->updateTotal();
 
 					return Convert::array2json(array(
