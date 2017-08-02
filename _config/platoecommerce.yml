@@ -43,8 +43,8 @@ LeftAndMain:
 
 Page_Controller:
   extensions:
-    - 'Cart'
+    - 'CartExtension'
 
 Security:
   extensions:
-    - 'Cart'
+    - 'CartExtension'
